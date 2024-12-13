@@ -91,7 +91,6 @@ def run_experiments(data_folder, tabu_sizes, max_iters, max_files=5):
     return results
 
 
-
 def plot_results(results, output_folder="./plots"):
     # Create the output folder if it doesn't exist
     os.makedirs(output_folder, exist_ok=True)
@@ -102,6 +101,17 @@ def plot_results(results, output_folder="./plots"):
         
         plt.figure(figsize=(10, 6))
         plt.plot(range(len(performance)), performance, label=label)
+        
+        # Add annotations for every 10th iteration
+        for i in range(0, len(performance), 10):
+            plt.annotate(
+                f"{performance[i]:.2f}",
+                (i, performance[i]),
+                textcoords="offset points",
+                xytext=(0, 5),
+                ha="center"
+            )
+
         plt.xlabel("Iterations")
         plt.ylabel("Tour Cost")
         plt.title(f"Performance on {dataset} (Tabu={tabu_size}, Iter={max_iter})")
@@ -117,7 +127,7 @@ def plot_results(results, output_folder="./plots"):
 if __name__ == "__main__":
     data_folder = "./data"  # Folder containing .tsp files
     tabu_sizes = [10, 20]  # Experiment with different tabu list sizes
-    max_iters = [10,20]  # Experiment with different iteration limits
+    max_iters = [100]  # Experiment with different iteration limits
 
     # Run experiments on only the first 10 .tsp files
     results = run_experiments(data_folder, tabu_sizes, max_iters, max_files=5)
