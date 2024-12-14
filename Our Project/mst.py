@@ -1,5 +1,6 @@
 import networkx as nx
 import numpy as np
+import heapq
 
 class DSU:
     def __init__(self, nodes) -> None:
@@ -28,7 +29,116 @@ class MST:
     def __init__(self) -> None:
         self.cost = 0
 
-    def get_mst_k(self, graph: nx.Graph, k : int) -> nx.Graph:
+    def get_mst_prims_k(self, graph: nx.Graph, k: int) -> nx.Graph:
+        """
+        Probabilistic Prim's Algorithm O(ElogV)
+        """
+        if len(graph.nodes) == 0:
+            return nx.Graph()
+
+        # Start with an arbitrary node (e.g., the first node)
+        start_node = list(graph.nodes)[0]
+
+        pq = []
+
+        visited = set()
+
+        # MST graph
+        mst_graph = nx.Graph()
+
+        # Add all edges from the starting node to the priority queue
+        for neighbor, edge_data in graph[start_node].items():
+            weight = edge_data['weight']
+            heapq.heappush(pq, (weight, start_node, neighbor))
+
+        visited.add(start_node)
+        self.cost = 0
+
+        eps = 1e-9
+
+        # While the MST does not span all nodes
+        while pq and len(visited) < len(graph.nodes):
+            # Extract edges from the priority queue
+            edges = []
+            for _ in range(min(k, len(pq))):
+                edges.append(heapq.heappop(pq))
+
+            # Normalize weights using softmax for probabilistic selection
+            weights = np.array([edge[0] for edge in edges])
+            weights = (weights - np.mean(weights)) / max(np.std(weights), eps)
+            softmax_values = np.exp(-weights)
+            probabilities = list(softmax_values / sum(softmax_values))
+
+            # Select an edge probabilistically
+            selected_index = np.random.choice(len(edges), p=probabilities)
+            weight, u, v = edges[selected_index]
+
+            # Return unselected edges back to the priority queue
+            for i, edge in enumerate(edges):
+                if i != selected_index:
+                    heapq.heappush(pq, edge)
+
+            if v in visited:
+                continue
+
+            # Add the edge to the MST
+            mst_graph.add_weighted_edges_from([(u, v, weight)])
+            self.cost += weight
+
+            visited.add(v)
+
+            # Add all edges from the new node to the priority queue
+            for neighbor, edge_data in graph[v].items():
+                if neighbor not in visited:
+                    heapq.heappush(pq, (edge_data['weight'], v, neighbor))
+
+        return mst_graph
+
+    def get_mst_prims(self, graph: nx.Graph) -> nx.Graph:
+        """
+        Prim's Algorithm O(ElogV)
+        """
+        if len(graph.nodes) == 0:
+            return nx.Graph()
+
+        # Start with an arbitrary node (e.g., the first node)
+        start_node = list(graph.nodes)[0]
+
+        pq = [] # Priority queue
+
+        visited = set()
+
+        mst_graph = nx.Graph()
+
+        # Add all edges from the starting node to the priority queue
+        for neighbor, edge_data in graph[start_node].items():
+            weight = edge_data['weight']
+            heapq.heappush(pq, (weight, start_node, neighbor))
+
+        visited.add(start_node)
+        self.cost = 0
+
+        while pq and len(visited) < len(graph.nodes):
+            # Get the smallest edge (weight, u, v)
+            weight, u, v = heapq.heappop(pq)
+
+            if v in visited:
+                continue
+
+            # Add the edge to the MST
+            mst_graph.add_weighted_edges_from([(u, v, weight)])
+            self.cost += weight
+
+            visited.add(v)
+
+            # Add all edges from the new node to the priority queue
+            for neighbor, edge_data in graph[v].items():
+                if neighbor not in visited:
+                    heapq.heappush(pq, (edge_data['weight'], v, neighbor))
+
+        return mst_graph
+
+    def get_mst_kruskal_k(self, graph: nx.Graph, k : int) -> nx.Graph:
         edges = graph.edges
 
         weighted_edges = {}
@@ -86,23 +196,24 @@ class MST:
             
         return mst_graph
 
-    def get_mst(self, graph: nx.Graph) -> nx.Graph:
+    def get_mst_kruskal(self, graph: nx.Graph) -> nx.Graph:
+        """
+        Kruskal's Algorithm O(ElogE)
+        """
         edges = graph.edges
 
         weighted_edges = {}
         for u, v in edges:
             weighted_edges[(u,v)] = int(graph.get_edge_data(u,v)["weight"])
+        
         weighted_edges = sorted(weighted_edges.items(), key=lambda x: x[1])
 
-        # if DEBUG:
-        #     print("MST weighted Edges: ",weighted_edges)
-
-        disjoin_set = DSU(graph.nodes)
+        disjoint_set = DSU(graph.nodes) # Using Disjoint Set for the creation of MST
         mst_graph = nx.Graph()
         for edge, weight in weighted_edges:
             u, v = edge
-            if disjoin_set.find_parent(u) != disjoin_set.find_parent(v):
-                disjoin_set.union_sets(u, v)
+            if disjoint_set.find_parent(u) != disjoint_set.find_parent(v):
+                disjoint_set.union_sets(u, v)
                 self.cost += weight
                 mst_graph.add_weighted_edges_from([(u,v,weight)])
 
@@ -110,11 +221,12 @@ class MST:
 
     def get_mst_cost(self):
         return self.cost
-    
-    def get_odd_degree_nodes(self, mst : nx.Graph) -> list:
-        nodes = mst.degree
 
-    def get_odd_degree_nodes(graph: nx.Graph):
-        return [node for node,degree in graph.degree if degree % 2 == 1]
+    def get_odd_degree_nodes(graph: nx.Graph) -> list:
+        odd_degree_nodes = []
+        for v in graph.nodes:
+            if graph.degree(v) % 2 == 1:
+                odd_degree_nodes.append(v)
+        return odd_degree_nodes
 
 
