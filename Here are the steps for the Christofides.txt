@@ -1,4 +1,4 @@
-Here are the steps for the Christofides algorithm. Kindly follow them and give me a python code.
+Here are the steps for the Christofides algorithm..
 
 1. Finding MST using Kruskal's Algorithm
 2. Finding an Eulerian circuit which requires the use of Handshaking lemma to create a subgraph from the MST
@@ -8,4 +8,4 @@ Here are the steps for the Christofides algorithm. Kindly follow them and give m
 
 Result: Final tour
 
-Report relevant graphs for this (MST, Subgraph, Final graph) and the final cost
+Report relevant graphs for this (MST, Subgraph, Final graph) and the final tour and cost.
