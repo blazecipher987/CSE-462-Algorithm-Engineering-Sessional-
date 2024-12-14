@@ -1,0 +1,97 @@
+name,dimension,opt_tour_length,type,comment,edge_weight_type,edge_weight_format
+burma14,14,3323,TSP,14-Staedte in Burma (Zaw Win),GEO,FUNCTION
+ulysses16,16,6859,TSP,Odyssey of Ulysses (Groetschel/Padberg),GEO,
+gr17,17,2085,TSP,17-city problem (Groetschel),EXPLICIT,LOWER_DIAG_ROW
+gr21,21,2707,TSP,21-city problem (Groetschel),EXPLICIT,LOWER_DIAG_ROW
+ulysses22,22,7013,TSP,Odyssey of Ulysses (Groetschel/Padberg),GEO,
+gr24,24,1272,TSP,24-city problem (Groetschel),EXPLICIT,LOWER_DIAG_ROW
+fri26,26,937,TSP,26 Staedte (Fricker),EXPLICIT,LOWER_DIAG_ROW
+bayg29,29,1610,TSP,"29 Cities in Bavaria, geographical distances (Groetschel,Juenger,Reinelt)",EXPLICIT,UPPER_ROW
+bays29,29,2020,TSP,"29 cities in Bavaria, street distances (Groetschel,Juenger,Reinelt)",EXPLICIT,FULL_MATRIX
+swiss42,42,1273,TSP,42 Staedte Schweiz (Fricker),EXPLICIT,FULL_MATRIX
+dantzig42,42,699,TSP,42 cities (Dantzig),EXPLICIT,LOWER_DIAG_ROW
+gr48,48,5046,TSP,48-city problem (Groetschel),EXPLICIT,LOWER_DIAG_ROW
+hk48,48,11461,TSP,48-city problem (Held/Karp),EXPLICIT,LOWER_DIAG_ROW
+eil51,51,426,TSP,51-city problem (Christofides/Eilon),EUC_2D,
+berlin52,52,7542,TSP,52 locations in Berlin (Groetschel),EUC_2D,
+brazil58,58,25395,TSP,58 cities in Brazil (Ferreira),EXPLICIT,UPPER_ROW
+st70,70,675,TSP,70-city problem (Smith/Thompson),EUC_2D,
+eil76,76,538,TSP,76-city problem (Christofides/Eilon),EUC_2D,
+pr76,76,108159,TSP,76-city problem (Padberg/Rinaldi),EUC_2D,
+gr96,96,55209,TSP,Africa-Subproblem of 666-city TSP (Groetschel),GEO,
+rat99,99,1211,TSP,Rattled grid (Pulleyblank),EUC_2D,
+kroC100,100,20749,TSP,100-city problem C (Krolak/Felts/Nelson),EUC_2D,
+kroD100,100,21294,TSP,100-city problem D (Krolak/Felts/Nelson),EUC_2D,
+kroE100,100,22068,TSP,100-city problem E (Krolak/Felts/Nelson),EUC_2D,
+rd100,100,7910,TSP,100-city random TSP (Reinelt),EUC_2D,
+kroB100,100,22141,TSP,100-city problem B (Krolak/Felts/Nelson),EUC_2D,
+kroA100,100,21282,TSP,100-city problem A (Krolak/Felts/Nelson),EUC_2D,
+eil101,101,629,TSP,101-city problem (Christofides/Eilon),EUC_2D,
+lin105,105,14379,TSP,105-city problem (Subproblem of lin318),EUC_2D,
+pr107,107,44303,TSP,107-city problem (Padberg/Rinaldi),EUC_2D,
+gr120,120,6942,TSP,120 cities in Germany (Groetschel),EXPLICIT,LOWER_DIAG_ROW
+pr124,124,59030,TSP,124-city problem (Padberg/Rinaldi),EUC_2D,
+bier127,127,118282,TSP,127 Biergaerten in Augsburg (Juenger/Reinelt),EUC_2D,
+ch130,130,6110,TSP,130 city problem (Churritz),EUC_2D,
+pr136,136,96772,TSP,136-city problem (Padberg/Rinaldi),EUC_2D,
+gr137,137,69853,TSP,America-Subproblem of 666-city TSP (Groetschel),GEO,
+pr144,144,58537,TSP,144-city problem (Padberg/Rinaldi),EUC_2D,
+ch150,150,6528,TSP,150 city Problem (churritz),EUC_2D,
+kroB150,150,26130,TSP,150-city problem B (Krolak/Felts/Nelson),EUC_2D,
+kroA150,150,26524,TSP,150-city problem A (Krolak/Felts/Nelson),EUC_2D,
+pr152,152,73682,TSP,152-city problem (Padberg/Rinaldi),EUC_2D,
+u159,159,42080,TSP,Drilling problem (Reinelt),EUC_2D,
+si175,175,21407,TSP (M.~Hofmeister),,EXPLICIT,UPPER_DIAG_ROW
+rat195,195,2323,TSP,Rattled grid (Pulleyblank),EUC_2D,
+d198,198,15780,TSP,Drilling problem (Reinelt),EUC_2D,
+kroA200,200,29368,TSP,200-city problem A (Krolak/Felts/Nelson),EUC_2D,
+kroB200,200,29437,TSP,200-city problem B (Krolak/Felts/Nelson),EUC_2D,
+gr202,202,40160,TSP,Europe-Subproblem of 666-city TSP (Groetschel),GEO,
+tsp225,225,3916,TSP,A TSP problem (Reinelt),EUC_2D,
+ts225,225,126643,TSP,"225-city problem (Juenger,Raecke,Tschoecke)",EUC_2D,
+pr226,226,80369,TSP,226-city problem (Padberg/Rinaldi),EUC_2D,
+gr229,229,134602,TSP,Asia/Australia-Subproblem of 666-city TSP (Groetschel),GEO,
+gil262,262,2378,TSP,262-city problem (Gillet/Johnson),EUC_2D,
+pr264,264,49135,TSP,264-city problem (Padberg/Rinaldi),EUC_2D,
+a280,280,2579,TSP,drilling problem (Ludwig),EUC_2D,
+pr299,299,48191,TSP,299-city problem (Padberg/Rinaldi),EUC_2D,
+lin318,318,42029,TSP,318-city problem (Lin/Kernighan),EUC_2D,
+linhp318,318,41345,TSP,Original 318-city problem (Lin/Kernighan),EUC_2D,
+rd400,400,15281,TSP,400-city random TSP (Reinelt),EUC_2D,
+fl417,417,11861,TSP,Drilling problem (Reinelt),EUC_2D,
+gr431,431,171414,TSP,Europe/Asia/Australia-Subproblem of 666-city TSP (Groetschel),GEO,FUNCTION
+pr439,439,107217,TSP,439-city problem (Padberg/Rinaldi),EUC_2D,
+pcb442,442,50778,TSP,Drilling problem (Groetschel/Juenger/Reinelt),EUC_2D,
+d493,493,35002,TSP,Drilling problem (Reinelt),EUC_2D,
+ali535,535,202339,TSP,535 Airports around the globe (Padberg/Rinaldi),GEO,
+si535,535,48450,TSP (M.~Hofmeister),,EXPLICIT,UPPER_DIAG_ROW
+pa561,561,2763,TSP,561-city problem (Kleinschmidt),EXPLICIT,LOWER_DIAG_ROW
+u574,574,36905,TSP,Drilling problem (Reinelt),EUC_2D,
+rat575,575,6773,TSP,Rattled grid (Pulleyblank),EUC_2D,
+p654,654,34643,TSP,Drilling problem (Reinelt),EUC_2D,
+d657,657,48912,TSP,Drilling problem (Reinelt),EUC_2D,
+gr666,666,294358,TSP,666 cities around the world (Groetschel),GEO,
+u724,724,41910,TSP,Drilling problem (Reinelt),EUC_2D,
+rat783,783,8806,TSP,Rattled grid (Pulleyblank),EUC_2D,
+dsj1000,1000,18660188,TSP,Clustered random problem (Johnson),CEIL_2D,
+pr1002,1002,259045,TSP,1002-city problem (Padberg/Rinaldi),EUC_2D,
+si1032,1032,92650,TSP (M.~Hofmeister),,EXPLICIT,UPPER_DIAG_ROW
+u1060,1060,224094,TSP,Drilling problem problem (Reinelt),EUC_2D,
+vm1084,1084,239297,TSP,1084-city problem (Reinelt),EUC_2D,
+pcb1173,1173,56892,TSP,Drilling problem (Juenger/Reinelt),EUC_2D,
+d1291,1291,50801,TSP,Drilling problem (Reinelt),EUC_2D,
+rl1304,1304,252948,TSP,1304-city TSP (Reinelt),EUC_2D,
+rl1323,1323,270199,TSP,1323-city TSP (Reinelt),EUC_2D,
+nrw1379,1379,56638,TSP,1379 Orte in Nordrhein-Westfalen (Bachem/Wottawa),EUC_2D,
+fl1400,1400,20127,TSP,Drilling problem (Reinelt),EUC_2D,
+u1432,1432,152970,TSP,Drilling problem (Reinelt),EUC_2D,
+d1655,1655,62128,TSP,Drilling problem (Reinelt),EUC_2D,
+vm1748,1748,336556,TSP,1784-city problem (Reinelt),EUC_2D,
+u1817,1817,57201,TSP,Drilling problem (Reinelt),EUC_2D,
+rl1889,1889,316536,TSP,1889-city TSP (Reinelt),EUC_2D,
+u2152,2152,64253,TSP,Drilling problem (Reinelt),EUC_2D,
+u2319,2319,234256,TSP,Drilling problem (Reinelt),EUC_2D,
+pr2392,2392,378032,TSP,2392-city problem (Padberg/Rinaldi),EUC_2D,
+pcb3038,3038,137694,TSP,Drilling problem (Junger/Reinelt),EUC_2D,
+fnl4461,4461,182566,TSP,Die 5 neuen Laender Deutschlands (Ex-DDR) (Bachem/Wottawa),EUC_2D,
+pla7397,7397,23260728,TSP,Programmed logic array (Johnson),CEIL_2D,

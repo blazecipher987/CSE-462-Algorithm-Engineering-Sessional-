@@ -1,0 +1,11 @@
+Here are the steps for the Christofides algorithm. Kindly follow them and give me a python code.
+
+1. Finding MST using Kruskal's Algorithm
+2. Finding an Eulerian circuit which requires the use of Handshaking lemma to create a subgraph from the MST
+3. Find the minimum cost perfect matching paris using Blossom Algorithm
+4. Combine MST and Pairs to find an Eulerian tour
+5. Remove the duplicates which are known as "Shortcutting" by validating using triangle inequality property (AB + BC >= AC)
+
+Result: Final tour
+
+Report relevant graphs for this (MST, Subgraph, Final graph) and the final cost
