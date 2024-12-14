@@ -72,7 +72,6 @@ class TabuSearchTSP:
     def get_performance(self):
         return self.performance
 
-
 # Experimentation and Plotting
 def run_experiments(data_folder, tabu_sizes, max_iters, max_files=5):
     results = {}

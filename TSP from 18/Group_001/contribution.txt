@@ -1,0 +1,38 @@
+1805069 - Sumonta Nandy Amit
+ - Contributed in the development of the novel randomized algorithm.
+ - Study of simulated annealing.
+ - Implementation of simulated annealing.
+ - Literature review.
+ - Presentation slide and report.
+
+1805094 - Sheikh Hasanul Banna
+ - Study of TSP.
+ - TSP details, reductions, and formulation.
+ - Various types of TSP.
+ - Idea of using softmax in the randomized algorithm.
+ - Literature review.
+ - Presentation slide and report.
+
+1805100 - Utchchhwas Singha
+ - Came up with the idea for the novel randomized algorithm.
+ - Contributed in the development of the novel randomized algorithm.
+ - Preparing and preprocessing the TSPLIB dataset.
+ - Writing codes for various experiments.
+ - Performing various experiments and preparing results.
+ - Literature review.
+ - Presentation slide and report.
+
+1805107 - Partho Kunda
+ - Contributed in the development of the novel randomized algorithm.
+ - Study of Christofides Algorithm.
+ - Implemetation of Christofides Algorithm.
+ - Implementation of randomized spanning tree.
+ - Literature review.
+ - Presentation slide and report.
+
+1805109 - Udayon Paul Dhrubo
+ - Study of applications of TSP.
+ - Study of existing solutions of TSP.
+ - Tabulation of existing solutions.
+ - Literature review.
+ - Presentation slide and report.
