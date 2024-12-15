@@ -14,8 +14,8 @@ class TabuSearchTSP:
         self.initial_tabu_size = initial_tabu_size
         self.max_tabu_size = max_tabu_size
         self.max_iter = max_iter
-        self.performance = []  # Track cost at each iteration
-        self.tabu_sizes = []   # Track tabu list size at each iteration
+        self.performance = [] 
+        self.tabu_sizes = []   
 
     def _calculate_distances(self):
         n = len(self.cities)
@@ -43,7 +43,6 @@ class TabuSearchTSP:
         return neighbors
     
     def _adjust_tabu_size(self, iteration, current_cost, best_cost):
-    # Calculate the improvement rate
         improvement_rate = abs(current_cost - best_cost) / max(1, best_cost)
         
         # Increase tabu size if improvement slows down
@@ -127,10 +126,9 @@ def plot_results(results, output_folder="./plots"):
         plt.close()  # Close the figure to free memory
 
 
-# Main Execution
 if __name__ == "__main__":
     data_folder = "./datasets"  # Folder containing .tsp files
-    max_iters = 100  # Number of iterations for experimentation
+    max_iters = 100  #
     max_files = 2
     results = {}
     for filename in sorted(os.listdir(data_folder))[:max_files]:
