@@ -223,10 +223,6 @@ class MST:
         return self.cost
 
     def get_odd_degree_nodes(graph: nx.Graph) -> list:
-        odd_degree_nodes = []
-        for v in graph.nodes:
-            if graph.degree(v) % 2 == 1:
-                odd_degree_nodes.append(v)
-        return odd_degree_nodes
+        return [node for node, degree in graph.degree if degree % 2 == 1]
 
 

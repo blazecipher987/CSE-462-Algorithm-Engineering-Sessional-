@@ -1,0 +1,495 @@
+Dataset: burma14
+Algorithm Cost (Probabilistic Prim's): 4198
+Algorithm Cost (NetworkX): 3606
+Optimal Cost: 3323
+Approximation Ratio (Probabilistic Prim's): 1.2633162804694553
+Approximation Ratio (NetworkX): 1.085164008426121
+Runtime (Probabilistic Prim's) (seconds): 0.43207550048828125
+Runtime (NetworkX) (seconds): 0.3169596195220947
+--------------------------------------------------
+Dataset: ulysses16
+Algorithm Cost (Probabilistic Prim's): 8304
+Algorithm Cost (NetworkX): 6983
+Optimal Cost: 6859
+Approximation Ratio (Probabilistic Prim's): 1.2106721096369732
+Approximation Ratio (NetworkX): 1.0180784370899547
+Runtime (Probabilistic Prim's) (seconds): 0.4839906692504883
+Runtime (NetworkX) (seconds): 0.3163483142852783
+--------------------------------------------------
+Dataset: gr17
+Algorithm Cost (Probabilistic Prim's): 2456
+Algorithm Cost (NetworkX): 2197
+Optimal Cost: 2085
+Approximation Ratio (Probabilistic Prim's): 1.177937649880096
+Approximation Ratio (NetworkX): 1.0537170263788969
+Runtime (Probabilistic Prim's) (seconds): 0.41514110565185547
+Runtime (NetworkX) (seconds): 0.3886077404022217
+--------------------------------------------------
+Dataset: gr21
+Algorithm Cost (Probabilistic Prim's): 3327
+Algorithm Cost (NetworkX): 2882
+Optimal Cost: 2707
+Approximation Ratio (Probabilistic Prim's): 1.2290358330254896
+Approximation Ratio (NetworkX): 1.064647210934614
+Runtime (Probabilistic Prim's) (seconds): 0.507591962814331
+Runtime (NetworkX) (seconds): 0.4497087001800537
+--------------------------------------------------
+Dataset: ulysses22
+Algorithm Cost (Probabilistic Prim's): 7572
+Algorithm Cost (NetworkX): 7411
+Optimal Cost: 7013
+Approximation Ratio (Probabilistic Prim's): 1.0797091116497932
+Approximation Ratio (NetworkX): 1.0567517467560246
+Runtime (Probabilistic Prim's) (seconds): 0.8394672870635986
+Runtime (NetworkX) (seconds): 0.5105319023132324
+--------------------------------------------------
+Dataset: gr24
+Algorithm Cost (Probabilistic Prim's): 1620
+Algorithm Cost (NetworkX): 1455
+Optimal Cost: 1272
+Approximation Ratio (Probabilistic Prim's): 1.2735849056603774
+Approximation Ratio (NetworkX): 1.1438679245283019
+Runtime (Probabilistic Prim's) (seconds): 0.7015962600708008
+Runtime (NetworkX) (seconds): 0.5953035354614258
+--------------------------------------------------
+Dataset: fri26
+Algorithm Cost (Probabilistic Prim's): 1189
+Algorithm Cost (NetworkX): 1051
+Optimal Cost: 937
+Approximation Ratio (Probabilistic Prim's): 1.2689434364994663
+Approximation Ratio (NetworkX): 1.121664887940235
+Runtime (Probabilistic Prim's) (seconds): 1.0241320133209229
+Runtime (NetworkX) (seconds): 0.8800146579742432
+--------------------------------------------------
+Dataset: bayg29
+Algorithm Cost (Probabilistic Prim's): 1835
+Algorithm Cost (NetworkX): 1765
+Optimal Cost: 1610
+Approximation Ratio (Probabilistic Prim's): 1.139751552795031
+Approximation Ratio (NetworkX): 1.0962732919254659
+Runtime (Probabilistic Prim's) (seconds): 1.0018947124481201
+Runtime (NetworkX) (seconds): 0.7262775897979736
+--------------------------------------------------
+Dataset: dantzig42
+Algorithm Cost (Probabilistic Prim's): 831
+Algorithm Cost (NetworkX): 761
+Optimal Cost: 699
+Approximation Ratio (Probabilistic Prim's): 1.1888412017167382
+Approximation Ratio (NetworkX): 1.0886981402002862
+Runtime (Probabilistic Prim's) (seconds): 1.5675160884857178
+Runtime (NetworkX) (seconds): 1.6155133247375488
+--------------------------------------------------
+Dataset: gr48
+Algorithm Cost (Probabilistic Prim's): 5649
+Algorithm Cost (NetworkX): 5753
+Optimal Cost: 5046
+Approximation Ratio (Probabilistic Prim's): 1.1195005945303211
+Approximation Ratio (NetworkX): 1.140110978993262
+Runtime (Probabilistic Prim's) (seconds): 2.2165842056274414
+Runtime (NetworkX) (seconds): 2.062697410583496
+--------------------------------------------------
+Dataset: hk48
+Algorithm Cost (Probabilistic Prim's): 12907
+Algorithm Cost (NetworkX): 12896
+Optimal Cost: 11461
+Approximation Ratio (Probabilistic Prim's): 1.1261670011342815
+Approximation Ratio (NetworkX): 1.1252072245004798
+Runtime (Probabilistic Prim's) (seconds): 1.5001235008239746
+Runtime (NetworkX) (seconds): 1.6973116397857666
+--------------------------------------------------
+Dataset: eil51
+Algorithm Cost (Probabilistic Prim's): 468
+Algorithm Cost (NetworkX): 462
+Optimal Cost: 426
+Approximation Ratio (Probabilistic Prim's): 1.0985915492957747
+Approximation Ratio (NetworkX): 1.0845070422535212
+Runtime (Probabilistic Prim's) (seconds): 1.6741607189178467
+Runtime (NetworkX) (seconds): 1.8756093978881836
+--------------------------------------------------
+Dataset: berlin52
+Algorithm Cost (Probabilistic Prim's): 8757
+Algorithm Cost (NetworkX): 8591
+Optimal Cost: 7542
+Approximation Ratio (Probabilistic Prim's): 1.1610978520286397
+Approximation Ratio (NetworkX): 1.1390877751259614
+Runtime (Probabilistic Prim's) (seconds): 1.683375597000122
+Runtime (NetworkX) (seconds): 1.5249552726745605
+--------------------------------------------------
+Dataset: brazil58
+Algorithm Cost (Probabilistic Prim's): 28480
+Algorithm Cost (NetworkX): 27205
+Optimal Cost: 25395
+Approximation Ratio (Probabilistic Prim's): 1.1214806064185863
+Approximation Ratio (NetworkX): 1.0712738728096083
+Runtime (Probabilistic Prim's) (seconds): 2.579061985015869
+Runtime (NetworkX) (seconds): 1.999643325805664
+--------------------------------------------------
+Dataset: st70
+Algorithm Cost (Probabilistic Prim's): 806
+Algorithm Cost (NetworkX): 770
+Optimal Cost: 675
+Approximation Ratio (Probabilistic Prim's): 1.194074074074074
+Approximation Ratio (NetworkX): 1.1407407407407408
+Runtime (Probabilistic Prim's) (seconds): 4.075080633163452
+Runtime (NetworkX) (seconds): 3.068852663040161
+--------------------------------------------------
+Dataset: eil76
+Algorithm Cost (Probabilistic Prim's): 634
+Algorithm Cost (NetworkX): 608
+Optimal Cost: 538
+Approximation Ratio (Probabilistic Prim's): 1.178438661710037
+Approximation Ratio (NetworkX): 1.1301115241635689
+Runtime (Probabilistic Prim's) (seconds): 4.375736474990845
+Runtime (NetworkX) (seconds): 3.8391060829162598
+--------------------------------------------------
+Dataset: pr76
+Algorithm Cost (Probabilistic Prim's): 121197
+Algorithm Cost (NetworkX): 116684
+Optimal Cost: 108159
+Approximation Ratio (Probabilistic Prim's): 1.120544753557263
+Approximation Ratio (NetworkX): 1.0788191458870737
+Runtime (Probabilistic Prim's) (seconds): 3.1433193683624268
+Runtime (NetworkX) (seconds): 2.352302074432373
+--------------------------------------------------
+Dataset: gr96
+Algorithm Cost (Probabilistic Prim's): 68189
+Algorithm Cost (NetworkX): 62101
+Optimal Cost: 55209
+Approximation Ratio (Probabilistic Prim's): 1.235106594939231
+Approximation Ratio (NetworkX): 1.1248347189769783
+Runtime (Probabilistic Prim's) (seconds): 6.592188835144043
+Runtime (NetworkX) (seconds): 4.074115753173828
+--------------------------------------------------
+Dataset: rat99
+Algorithm Cost (Probabilistic Prim's): 1450
+Algorithm Cost (NetworkX): 1393
+Optimal Cost: 1211
+Approximation Ratio (Probabilistic Prim's): 1.1973575557390586
+Approximation Ratio (NetworkX): 1.1502890173410405
+Runtime (Probabilistic Prim's) (seconds): 4.214229345321655
+Runtime (NetworkX) (seconds): 5.370556354522705
+--------------------------------------------------
+Dataset: kroA100
+Algorithm Cost (Probabilistic Prim's): 26032
+Algorithm Cost (NetworkX): 23293
+Optimal Cost: 21282
+Approximation Ratio (Probabilistic Prim's): 1.2231933088995395
+Approximation Ratio (NetworkX): 1.0944929987783103
+Runtime (Probabilistic Prim's) (seconds): 9.216811895370483
+Runtime (NetworkX) (seconds): 5.086305141448975
+--------------------------------------------------
+Dataset: kroB100
+Algorithm Cost (Probabilistic Prim's): 26883
+Algorithm Cost (NetworkX): 24012
+Optimal Cost: 22141
+Approximation Ratio (Probabilistic Prim's): 1.2141728015898108
+Approximation Ratio (NetworkX): 1.0845038616142
+Runtime (Probabilistic Prim's) (seconds): 7.228744983673096
+Runtime (NetworkX) (seconds): 3.5722625255584717
+--------------------------------------------------
+Dataset: kroC100
+Algorithm Cost (Probabilistic Prim's): 24385
+Algorithm Cost (NetworkX): 23470
+Optimal Cost: 20749
+Approximation Ratio (Probabilistic Prim's): 1.1752373608366669
+Approximation Ratio (NetworkX): 1.1311388500650634
+Runtime (Probabilistic Prim's) (seconds): 5.741710186004639
+Runtime (NetworkX) (seconds): 4.62218165397644
+--------------------------------------------------
+Dataset: kroD100
+Algorithm Cost (Probabilistic Prim's): 25751
+Algorithm Cost (NetworkX): 23583
+Optimal Cost: 21294
+Approximation Ratio (Probabilistic Prim's): 1.2093077862308632
+Approximation Ratio (NetworkX): 1.1074950690335306
+Runtime (Probabilistic Prim's) (seconds): 7.6868672370910645
+Runtime (NetworkX) (seconds): 5.313386678695679
+--------------------------------------------------
+Dataset: kroE100
+Algorithm Cost (Probabilistic Prim's): 26144
+Algorithm Cost (NetworkX): 23783
+Optimal Cost: 22068
+Approximation Ratio (Probabilistic Prim's): 1.1847018307050934
+Approximation Ratio (NetworkX): 1.0777143375022658
+Runtime (Probabilistic Prim's) (seconds): 5.359719276428223
+Runtime (NetworkX) (seconds): 5.7655627727508545
+--------------------------------------------------
+Dataset: rd100
+Algorithm Cost (Probabilistic Prim's): 9524
+Algorithm Cost (NetworkX): 8906
+Optimal Cost: 7910
+Approximation Ratio (Probabilistic Prim's): 1.2040455120101137
+Approximation Ratio (NetworkX): 1.1259165613147915
+Runtime (Probabilistic Prim's) (seconds): 7.3511803150177
+Runtime (NetworkX) (seconds): 6.563124418258667
+--------------------------------------------------
+Dataset: eil101
+Algorithm Cost (Probabilistic Prim's): 731
+Algorithm Cost (NetworkX): 707
+Optimal Cost: 629
+Approximation Ratio (Probabilistic Prim's): 1.162162162162162
+Approximation Ratio (NetworkX): 1.124006359300477
+Runtime (Probabilistic Prim's) (seconds): 7.525583028793335
+Runtime (NetworkX) (seconds): 7.7412450313568115
+--------------------------------------------------
+Dataset: lin105
+Algorithm Cost (Probabilistic Prim's): 19773
+Algorithm Cost (NetworkX): 16320
+Optimal Cost: 14379
+Approximation Ratio (Probabilistic Prim's): 1.3751303984978094
+Approximation Ratio (NetworkX): 1.1349885249321927
+Runtime (Probabilistic Prim's) (seconds): 6.755204916000366
+Runtime (NetworkX) (seconds): 4.698431730270386
+--------------------------------------------------
+Dataset: pr107
+Algorithm Cost (Probabilistic Prim's): 52970
+Algorithm Cost (NetworkX): 47891
+Optimal Cost: 44303
+Approximation Ratio (Probabilistic Prim's): 1.1956300927702412
+Approximation Ratio (NetworkX): 1.0809877434936686
+Runtime (Probabilistic Prim's) (seconds): 11.363830327987671
+Runtime (NetworkX) (seconds): 5.702001094818115
+--------------------------------------------------
+Dataset: gr120
+Algorithm Cost (Probabilistic Prim's): 8166
+Algorithm Cost (NetworkX): 8016
+Optimal Cost: 6942
+Approximation Ratio (Probabilistic Prim's): 1.1763180639585133
+Approximation Ratio (NetworkX): 1.1547104580812446
+Runtime (Probabilistic Prim's) (seconds): 11.022036790847778
+Runtime (NetworkX) (seconds): 11.136696338653564
+--------------------------------------------------
+Dataset: pr124
+Algorithm Cost (Probabilistic Prim's): 74817
+Algorithm Cost (NetworkX): 64438
+Optimal Cost: 59030
+Approximation Ratio (Probabilistic Prim's): 1.2674402846010504
+Approximation Ratio (NetworkX): 1.0916144333389801
+Runtime (Probabilistic Prim's) (seconds): 7.967967987060547
+Runtime (NetworkX) (seconds): 3.2267510890960693
+--------------------------------------------------
+Dataset: bier127
+Algorithm Cost (Probabilistic Prim's): 132874
+Algorithm Cost (NetworkX): 132448
+Optimal Cost: 118282
+Approximation Ratio (Probabilistic Prim's): 1.1233661926582235
+Approximation Ratio (NetworkX): 1.119764630290323
+Runtime (Probabilistic Prim's) (seconds): 9.463672399520874
+Runtime (NetworkX) (seconds): 11.95989441871643
+--------------------------------------------------
+Dataset: ch130
+Algorithm Cost (Probabilistic Prim's): 7106
+Algorithm Cost (NetworkX): 6773
+Optimal Cost: 6110
+Approximation Ratio (Probabilistic Prim's): 1.163011456628478
+Approximation Ratio (NetworkX): 1.1085106382978724
+Runtime (Probabilistic Prim's) (seconds): 13.901095151901245
+Runtime (NetworkX) (seconds): 6.371546983718872
+--------------------------------------------------
+Dataset: pr136
+Algorithm Cost (Probabilistic Prim's): 111233
+Algorithm Cost (NetworkX): 103771
+Optimal Cost: 96772
+Approximation Ratio (Probabilistic Prim's): 1.1494337204976646
+Approximation Ratio (NetworkX): 1.0723246393584922
+Runtime (Probabilistic Prim's) (seconds): 15.078088998794556
+Runtime (NetworkX) (seconds): 4.044452905654907
+--------------------------------------------------
+Dataset: gr137
+Algorithm Cost (Probabilistic Prim's): 78489
+Algorithm Cost (NetworkX): 76589
+Optimal Cost: 69853
+Approximation Ratio (Probabilistic Prim's): 1.1236310537843757
+Approximation Ratio (NetworkX): 1.0964310766896197
+Runtime (Probabilistic Prim's) (seconds): 11.853495597839355
+Runtime (NetworkX) (seconds): 8.086258172988892
+--------------------------------------------------
+Dataset: pr144
+Algorithm Cost (Probabilistic Prim's): 83989
+Algorithm Cost (NetworkX): 70404
+Optimal Cost: 58537
+Approximation Ratio (Probabilistic Prim's): 1.4348019201530655
+Approximation Ratio (NetworkX): 1.2027264806874285
+Runtime (Probabilistic Prim's) (seconds): 26.841168880462646
+Runtime (NetworkX) (seconds): 2.8343749046325684
+--------------------------------------------------
+Dataset: ch150
+Algorithm Cost (Probabilistic Prim's): 7557
+Algorithm Cost (NetworkX): 7135
+Optimal Cost: 6528
+Approximation Ratio (Probabilistic Prim's): 1.1576286764705883
+Approximation Ratio (NetworkX): 1.092984068627451
+Runtime (Probabilistic Prim's) (seconds): 12.121047973632812
+Runtime (NetworkX) (seconds): 8.395893573760986
+--------------------------------------------------
+Dataset: kroA150
+Algorithm Cost (Probabilistic Prim's): 31541
+Algorithm Cost (NetworkX): 29688
+Optimal Cost: 26524
+Approximation Ratio (Probabilistic Prim's): 1.1891494495551198
+Approximation Ratio (NetworkX): 1.1192881918262705
+Runtime (Probabilistic Prim's) (seconds): 23.84310555458069
+Runtime (NetworkX) (seconds): 14.379390001296997
+--------------------------------------------------
+Dataset: kroB150
+Algorithm Cost (Probabilistic Prim's): 30111
+Algorithm Cost (NetworkX): 30053
+Optimal Cost: 26130
+Approximation Ratio (Probabilistic Prim's): 1.152353616532721
+Approximation Ratio (NetworkX): 1.1501339456563338
+Runtime (Probabilistic Prim's) (seconds): 16.06816339492798
+Runtime (NetworkX) (seconds): 16.966291904449463
+--------------------------------------------------
+Dataset: pr152
+Algorithm Cost (Probabilistic Prim's): 90750
+Algorithm Cost (NetworkX): 79311
+Optimal Cost: 73682
+Approximation Ratio (Probabilistic Prim's): 1.2316440921799083
+Approximation Ratio (NetworkX): 1.0763958633044706
+Runtime (Probabilistic Prim's) (seconds): 22.664686918258667
+Runtime (NetworkX) (seconds): 3.3521690368652344
+--------------------------------------------------
+Dataset: u159
+Algorithm Cost (Probabilistic Prim's): 50852
+Algorithm Cost (NetworkX): 47586
+Optimal Cost: 42080
+Approximation Ratio (Probabilistic Prim's): 1.2084600760456274
+Approximation Ratio (NetworkX): 1.1308460076045628
+Runtime (Probabilistic Prim's) (seconds): 20.38230562210083
+Runtime (NetworkX) (seconds): 12.196922302246094
+--------------------------------------------------
+Dataset: si175
+Algorithm Cost (Probabilistic Prim's): 22520
+Algorithm Cost (NetworkX): 22079
+Optimal Cost: 21407
+Approximation Ratio (Probabilistic Prim's): 1.0519923389545476
+Approximation Ratio (NetworkX): 1.0313916008782174
+Runtime (Probabilistic Prim's) (seconds): 19.176453828811646
+Runtime (NetworkX) (seconds): 14.288721323013306
+--------------------------------------------------
+Dataset: rat195
+Algorithm Cost (Probabilistic Prim's): 2759
+Algorithm Cost (NetworkX): 2630
+Optimal Cost: 2323
+Approximation Ratio (Probabilistic Prim's): 1.1876883340507964
+Approximation Ratio (NetworkX): 1.1321566939302625
+Runtime (Probabilistic Prim's) (seconds): 25.753833770751953
+Runtime (NetworkX) (seconds): 16.044161796569824
+--------------------------------------------------
+Dataset: d198
+Algorithm Cost (Probabilistic Prim's): 18086
+Algorithm Cost (NetworkX): 17347
+Optimal Cost: 15780
+Approximation Ratio (Probabilistic Prim's): 1.1461343472750316
+Approximation Ratio (NetworkX): 1.0993029150823828
+Runtime (Probabilistic Prim's) (seconds): 30.029744863510132
+Runtime (NetworkX) (seconds): 18.838298559188843
+--------------------------------------------------
+Dataset: kroA200
+Algorithm Cost (Probabilistic Prim's): 35048
+Algorithm Cost (NetworkX): 33232
+Optimal Cost: 29368
+Approximation Ratio (Probabilistic Prim's): 1.1934077907926994
+Approximation Ratio (NetworkX): 1.1315717788068647
+Runtime (Probabilistic Prim's) (seconds): 26.188073873519897
+Runtime (NetworkX) (seconds): 21.842747449874878
+--------------------------------------------------
+Dataset: kroB200
+Algorithm Cost (Probabilistic Prim's): 35103
+Algorithm Cost (NetworkX): 33119
+Optimal Cost: 29437
+Approximation Ratio (Probabilistic Prim's): 1.1924788531440025
+Approximation Ratio (NetworkX): 1.1250806807758942
+Runtime (Probabilistic Prim's) (seconds): 30.190635204315186
+Runtime (NetworkX) (seconds): 19.33249592781067
+--------------------------------------------------
+Dataset: gr202
+Algorithm Cost (Probabilistic Prim's): 44737
+Algorithm Cost (NetworkX): 43255
+Optimal Cost: 40160
+Approximation Ratio (Probabilistic Prim's): 1.113969123505976
+Approximation Ratio (NetworkX): 1.077066733067729
+Runtime (Probabilistic Prim's) (seconds): 25.88646697998047
+Runtime (NetworkX) (seconds): 26.913690328598022
+--------------------------------------------------
+Dataset: ts225
+Algorithm Cost (Probabilistic Prim's): 136345
+Algorithm Cost (NetworkX): 133282
+Optimal Cost: 126643
+Approximation Ratio (Probabilistic Prim's): 1.0766090506384087
+Approximation Ratio (NetworkX): 1.0524229527095852
+Runtime (Probabilistic Prim's) (seconds): 8.47728157043457
+Runtime (NetworkX) (seconds): 5.651885271072388
+--------------------------------------------------
+Dataset: tsp225
+Algorithm Cost (Probabilistic Prim's): 4559
+Algorithm Cost (NetworkX): 4397
+Optimal Cost: 3916
+Approximation Ratio (Probabilistic Prim's): 1.1641981613891725
+Approximation Ratio (NetworkX): 1.122829417773238
+Runtime (Probabilistic Prim's) (seconds): 26.681901693344116
+Runtime (NetworkX) (seconds): 16.727738857269287
+--------------------------------------------------
+Dataset: pr226
+Algorithm Cost (Probabilistic Prim's): 103673
+Algorithm Cost (NetworkX): 92333
+Optimal Cost: 80369
+Approximation Ratio (Probabilistic Prim's): 1.28996254774851
+Approximation Ratio (NetworkX): 1.148863367716408
+Runtime (Probabilistic Prim's) (seconds): 46.56472301483154
+Runtime (NetworkX) (seconds): 19.36468267440796
+--------------------------------------------------
+Dataset: gr229
+Algorithm Cost (Probabilistic Prim's): 153800
+Algorithm Cost (NetworkX): 147609
+Optimal Cost: 134602
+Approximation Ratio (Probabilistic Prim's): 1.142627895573617
+Approximation Ratio (NetworkX): 1.096633036656216
+Runtime (Probabilistic Prim's) (seconds): 33.87674570083618
+Runtime (NetworkX) (seconds): 28.254312753677368
+--------------------------------------------------
+Dataset: gil262
+Algorithm Cost (Probabilistic Prim's): 2873
+Algorithm Cost (NetworkX): 2724
+Optimal Cost: 2378
+Approximation Ratio (Probabilistic Prim's): 1.2081581160639192
+Approximation Ratio (NetworkX): 1.1455004205214465
+Runtime (Probabilistic Prim's) (seconds): 47.550631284713745
+Runtime (NetworkX) (seconds): 39.30710577964783
+--------------------------------------------------
+Dataset: pr264
+Algorithm Cost (Probabilistic Prim's): 61312
+Algorithm Cost (NetworkX): 54662
+Optimal Cost: 49135
+Approximation Ratio (Probabilistic Prim's): 1.247827414266816
+Approximation Ratio (NetworkX): 1.1124860079373156
+Runtime (Probabilistic Prim's) (seconds): 56.490947008132935
+Runtime (NetworkX) (seconds): 16.556724548339844
+--------------------------------------------------
+Dataset: a280
+Algorithm Cost (Probabilistic Prim's): 3060
+Algorithm Cost (NetworkX): 2914
+Optimal Cost: 2579
+Approximation Ratio (Probabilistic Prim's): 1.1865063978286157
+Approximation Ratio (NetworkX): 1.129895308259015
+Runtime (Probabilistic Prim's) (seconds): 38.03730273246765
+Runtime (NetworkX) (seconds): 34.142470598220825
+--------------------------------------------------
+Dataset: pr299
+Algorithm Cost (Probabilistic Prim's): 57752
+Algorithm Cost (NetworkX): 52969
+Optimal Cost: 48191
+Approximation Ratio (Probabilistic Prim's): 1.1983980411280115
+Approximation Ratio (NetworkX): 1.0991471436575295
+Runtime (Probabilistic Prim's) (seconds): 46.866992473602295
+Runtime (NetworkX) (seconds): 39.3478217124939
+--------------------------------------------------
+Dataset: lin318
+Algorithm Cost (Probabilistic Prim's): 52658
+Algorithm Cost (NetworkX): 47246
+Optimal Cost: 42029
+Approximation Ratio (Probabilistic Prim's): 1.2528968093459278
+Approximation Ratio (NetworkX): 1.1241285778866972
+Runtime (Probabilistic Prim's) (seconds): 100.78033208847046
+Runtime (NetworkX) (seconds): 50.02975344657898
+--------------------------------------------------
